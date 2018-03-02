@@ -9,7 +9,7 @@ body{
 header{
 	background-color: #5b7989;
 	border-radius: 10px 10px 0px 0px;
-	padding: 10px;
+	padding: 0px 20px 0px 20px;
 	display: flex;
 	flex-direction: row;
 }
@@ -46,4 +46,62 @@ header nav{
 	background-color: #82c3a6;
 	text-align: center;
 	padding: 2%;
+}
+
+#imagenCentral img{
+	box-shadow:2px 2px #02010a;
+}
+
+#imagenSecundaria{
+	background-color: #d5c75f;
+
+	display: flex;
+	flex-direction: row;
+}
+
+#imagenSecundaria div{
+	width: 50%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#imagenSecundaria #imagen2{
+	width: 100%;
+	border: solid 1px black;
+	box-shadow: 2px 2px #02010a;
+	transition-property: transform, box-shadow;
+	transition-duration: 1s, 1s;
+}
+
+#imagenSecundaria #imagen2:hover{
+	transform: rotate(10deg);
+	box-shadow:2px 2px #82c3a6;
+}
+
+#imagenSecundaria #imagen3{
+	width: 100%;
+	border: solid 1px black;
+	box-shadow:2px 2px #02010a;
+	transition-property: transform, box-shadow;
+	transition-duration: 1s, 1s;
+}
+
+#imagenSecundaria #imagen3:hover{
+	transform: translate(20px,-5px);
+	box-shadow:2px 2px #82c3a6;
+}
+
+#imagenSecundaria a{
+	color:black;
+}
+
+#imagenSecundaria figcaption{
+	margin-top: 5px;
+	font-size: 1.2em;
+}
+
+footer{
+	background-color: #C6d5c5;
+	border-radius: 0px 0px 10px 10px;
 }
