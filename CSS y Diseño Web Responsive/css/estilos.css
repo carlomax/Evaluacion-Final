@@ -40,7 +40,7 @@ header nav{
 	margin: 5px;
 }
 
-.menu li a:visited, .menu li{
+.active{
 	text-decoration: none;
 }
 
@@ -109,7 +109,7 @@ header nav{
 
 #imagenSecundaria figcaption{
 	margin-top: 5px;
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 footer{
